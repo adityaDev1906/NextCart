@@ -1,11 +1,11 @@
 import React from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { incrementQuantity, decrementQuantity, emptyCart } from '../redux/action';
+import { incrementQuantity, decrementQuantity, emptyCart } from "../features/cart/cartSlice";
 
 const Cart = () => {
     const dispatch = useDispatch();
-    const cartData = useSelector((state) => state.cartData); //Get cart data from Redux
+    const cartData = useSelector((state) => state.cart); //Get cart data from Redux
     //console.warn("CartData value",cartData)
     let amount = cartData.length && cartData.reduce((total, item) => total + item.price * item.quantity, 0);
     console.warn(amount)

@@ -14,14 +14,14 @@
 }
 
 .nav-logo{
-    height: 50px;
-    width: 110px;
+    height: 55px;
+    width: 150px;
 }
 
 .logo{
-    background-image: url("amazon_logo.png");
-    height: 50px;
-    width:100%;
+    background-image: url('./nextCart_logo.png');
+    height: 55px;
+    width: 150px;
     background-size: cover;
 }
 
@@ -223,13 +223,6 @@ ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.logo{
-    background-image: url("amazon_logo.png");
-    height: 50px;
-    width:100%;
-    background-size: cover;
-    width:100px;
 }
 
 .foot-panel4{

@@ -12,37 +12,37 @@ const Footer = () => {
                         <p>Get to Know Us</p>
                         <a>Careers</a>
                         <a>Blog</a>
-                        <a>About Amazon</a>
+                        <a>About NextCart</a>
                         <a>Investor Relations</a>
-                        <a>Amazon Devices</a>
-                        <a>Amazon Science</a>
+                        <a>NextCart Devices</a>
+                        <a>NextCart Science</a>
                     </ul>
                     <ul>
                         <p>Get to Know Us</p>
                         <a>Careers</a>
                         <a>Blog</a>
-                        <a>About Amazon</a>
+                        <a>About NextCart</a>
                         <a>Investor Relations</a>
-                        <a>Amazon Devices</a>
-                        <a>Amazon Science</a>
+                        <a>NextCart Devices</a>
+                        <a>NextCart Science</a>
                     </ul>
                     <ul>
                         <p>Get to Know Us</p>
                         <a>Careers</a>
                         <a>Blog</a>
-                        <a>About Amazon</a>
+                        <a>About NextCart</a>
                         <a>Investor Relations</a>
-                        <a>Amazon Devices</a>
-                        <a>Amazon Science</a>
+                        <a>NextCart Devices</a>
+                        <a>NextCart Science</a>
                     </ul>
                     <ul>
                         <p>Get to Know Us</p>
                         <a>Careers</a>
                         <a>Blog</a>
-                        <a>About Amazon</a>
+                        <a>About NextCart</a>
                         <a>Investor Relations</a>
-                        <a>Amazon Devices</a>
-                        <a>Amazon Science</a>
+                        <a>NextCart Devices</a>
+                        <a>NextCart Science</a>
                     </ul>
                 </div>
                 <div className="foot-panel3">
@@ -55,7 +55,7 @@ const Footer = () => {
                         <a>Your Ads Privacy Choices</a>
                     </div>
                     <div className="copyright">
-                        © 1996-2024, Amazon.com, Inc. or its affiliates
+                        © 1996-2024, NextCart.com, Inc. or its affiliates
                     </div>
                 </div>
             </footer>

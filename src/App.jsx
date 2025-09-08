@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
@@ -8,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <Routes>
         <Route path='/' element={<Content />} />
         <Route path='/cart' element={<Cart />} />

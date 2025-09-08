@@ -1,13 +1,11 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React, {useState} from 'react'
+import { useSelector} from 'react-redux'
 import { Link } from 'react-router-dom';
-import { productSearch } from '../redux/productAction'
-// import './App.css';
 
 const Header = () => {
-    const result = useSelector((state) => state.cartData);
-    const dispatch = useDispatch();
-    // console.warn("data in header", result);
+    const result = useSelector((state) => state.cart);
+    const [searchTerm, setSearchTerm] = useState('');
+
     return (
         <>
             <div>
@@ -28,7 +26,7 @@ const Header = () => {
                         <select className="search-select">
                             <option value="">All</option>
                         </select>
-                        <input type="text" placeholder="Search Product" className="search-input" onChange={(event) => dispatch(productSearch(event.target.value))} />
+                        <input type="text" placeholder="Search Product" className="search-input" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                         <div className="search-icon" >
                             <i className="fa-solid fa-magnifying-glass"></i>
                         </div>
