@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Shirt",
+            "color": "black",
+            "price": 5000,
+            "category": "Clothes",
+            "brand": "Levis",
+            "photo": "Images/box1_image.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Shampoo and Facewash",
+            "color": "Blue",
+            "price": 1000,
+            "category": "Health & Personal Care",
+            "brand": "Traya",
+            "photo": "Images/box2_image.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Table",
+            "color": "Brown",
+            "price": 5000,
+            "category": "Furniture",
+            "brand": "Supreme",
+            "photo": "Images/box3_image.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mobile Phone",
+            "color": "red and black",
+            "price": 18000,
+            "category": "Electronics",
+            "brand": "One plus",
+            "photo": "Images/box4_image.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Face cream",
+            "color": "Pink",
+            "price": 2000,
+            "category": "Beauty Picks",
+            "brand": "Lakme",
+            "photo": "Images/box5_image.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pedigree",
+            "color": "brown",
+            "price": 800,
+            "category": "Pet Care",
+            "brand": "PetLove",
+            "photo": "Images/box6_image.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Pokemon",
+            "color": "yellow",
+            "price": 1800,
+            "category": "New Arrival in Toys",
+            "brand": "Disney",
+            "photo": "Images/box7_image.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Ladies dress",
+            "color": "green",
+            "price": 2900,
+            "category": "Discover Fashion Trends",
+            "brand": "Biba",
+            "photo": "Images/box8_image.jpg"
+        }
+    ]
+}
